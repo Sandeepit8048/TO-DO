@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [username, setUsername] = useState('');
+  const[password, setPassword] = useState('');
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const registeredUser = useSelector((state) => state.auth.registeredUser);
@@ -40,7 +41,7 @@ const Login = () => {
         <input
           type="password"
           placeholder="Enter your password"
-          onChange={(e) => setUsername(e.target.value)}
+          onChange={(e) => setPassword(e.target.value)}
           className="w-full mb-4 px-4 py-2 border rounded"
         />
         <button
