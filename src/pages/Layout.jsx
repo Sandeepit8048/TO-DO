@@ -21,16 +21,7 @@ const Layout = () => {
                         <RxDashboard size={20} />
                         <p className="text-xl">Dashboard</p>
                     </NavLink>
-                    {/* <NavLink
-                        to="/alltasks"
-                        className={({ isActive }) =>
-                            `flex px-4 py-2 items-center gap-4 rounded-md ${isActive ? 'bg-green-300' : 'hover:bg-gray-200'
-                            }`
-                        } */}
-                    {/* > */}
-                        {/* <FaTasks size={20} />
-                        <p className="text-xl">All Tasks</p>
-                    </NavLink> */}
+                      
                 </div>
             </div>
             <main className="dashboard__main m-4 shadow-lg rounded-lg bg-white w-full">

@@ -37,6 +37,12 @@ const Login = () => {
           onChange={(e) => setUsername(e.target.value)}
           className="w-full mb-4 px-4 py-2 border rounded"
         />
+        <input
+          type="password"
+          placeholder="Enter your password"
+          onChange={(e) => setUsername(e.target.value)}
+          className="w-full mb-4 px-4 py-2 border rounded"
+        />
         <button
           onClick={handleLogin}
           className="w-full bg-blue-500 text-white px-4 py-2 rounded"
